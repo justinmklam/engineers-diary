@@ -1,0 +1,8 @@
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Release\Engineers-Diary.exe.config
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Release\Engineers-Diary.exe
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Release\Engineers-Diary.pdb
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Release\Engineers_Diary.Form1.resources
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Release\Engineers_Diary.Properties.Resources.resources
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Release\Engineers-Diary.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Release\Engineers-Diary.exe
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Release\Engineers-Diary.pdb

@@ -1,0 +1,9 @@
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Debug\Engineers-Diary.exe.config
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Debug\Engineers-Diary.exe
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\bin\Debug\Engineers-Diary.pdb
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers-Diary.csprojResolveAssemblyReference.cache
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers_Diary.Form1.resources
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers_Diary.Properties.Resources.resources
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers-Diary.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers-Diary.exe
+C:\Users\justi\Documents\Bitbucket\engineers-diary\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers-Diary.pdb
