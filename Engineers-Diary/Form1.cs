@@ -35,12 +35,13 @@ namespace Engineers_Diary
         private void btnCommit_Click(object sender, EventArgs e)
         {
             List<string> to_write = new List<string>();
+            string output;
 
             if (!Directory.Exists(path_archive))
                 Directory.CreateDirectory(path_archive);
 
             string filename = DateTime.Now.ToString("yyyy-MM-dd");
-            string timestamp = DateTime.Now.ToString("h:mm:ss tt - ");
+            string timestamp = DateTime.Now.ToString("h:mm:ss tt");
 
             string filename_toread = path_archive + "\\" + filename + ".txt";
 
@@ -53,8 +54,17 @@ namespace Engineers_Diary
                 to_write.AddRange(constructHeader());
                 lstArchive.Items.Insert(0, filename);
             }
-            
-            to_write.Add(timestamp + txtEntry.Text);
+
+
+            if (!String.IsNullOrEmpty(txtSubject.Text))
+                output = "{0} - ({1}) {2}";
+            else
+                output = "{0} - {2}";
+
+            output = String.Format(output, timestamp, txtSubject.Text, txtEntry.Text);
+
+            //to_write.Add(timestamp + txtSubject.Text + txtEntry.Text);
+            to_write.Add(output);
             to_write.Add("");
 
             filename += ".txt";
@@ -64,6 +74,7 @@ namespace Engineers_Diary
             txtEntry.Clear();
             txtSubject.Clear();
             txtArchiveEntry.Text = System.IO.File.ReadAllText(path_archive + "\\" + filename);
+            lstArchive.SelectedIndex = 0;
         }
 
         private List<string> constructHeader()
@@ -74,8 +85,6 @@ namespace Engineers_Diary
             //header.Add("TIME: " + DateTime.Now.ToString("h:mm:ss tt"));
             header.Add("AUTHOR: " + txtAuthor.Text);
             header.Add("---");
-            header.Add("");
-            header.Add("PROJECTS: " + txtSubject.Text);
             header.Add("");
 
             return header;
