@@ -57,7 +57,7 @@ namespace Engineers_Diary
 
 
             if (!String.IsNullOrEmpty(txtSubject.Text))
-                output = "{0} - ({1}) {2}";
+                output = "{0} - [{1}] {2}";
             else
                 output = "{0} - {2}";
 
@@ -140,4 +140,5 @@ namespace Engineers_Diary
             }
         }
     }
+
 }

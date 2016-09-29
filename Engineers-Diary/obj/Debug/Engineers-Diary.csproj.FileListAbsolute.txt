@@ -16,3 +16,12 @@ C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Debug\Engine
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers_Diary.Form1.resources
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers_Diary.Properties.Resources.resources
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Debug\Engineers-Diary.csproj.GenerateResource.Cache
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\bin\Debug\Engineers-Diary.exe.config
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers-Diary.exe
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers-Diary.pdb
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\bin\Debug\Engineers-Diary.exe
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\bin\Debug\Engineers-Diary.pdb
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers-Diary.csprojResolveAssemblyReference.cache
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers_Diary.Properties.Resources.resources
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers-Diary.csproj.GenerateResource.Cache
+C:\Users\Justin\Documents\GitHub\engineers-diary\Engineers-Diary\obj\Debug\Engineers_Diary.Form1.resources

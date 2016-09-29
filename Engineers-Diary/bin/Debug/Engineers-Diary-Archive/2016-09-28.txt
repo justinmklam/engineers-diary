@@ -3,15 +3,9 @@ DATE: Wed, 28 Sep 2016
 AUTHOR: Justin Lam
 ---
 
-7:56:11 AM -  - (7:56:11 AM - ) 7:56:11 AM - 
+5:25:03 PM - (SM01) Shoeme research timeline for 3D scanning technologies and relevant companies.
 
-7:56:52 AM -  - (MW05) Another one
+5:26:12 PM - (AR00) Met w/ Josh et al about c-arm. Need to do a second pass on the product development cycle, mainly adding times to the tasks. Look at Alpha Dominche proposal brief for details.
 
-7:59:43 AM - (MW06) And another one
-
-7:59:50 AM - And yet another one
-
-8:01:40 AM - djskal
-
-8:01:57 AM - (MW03) Foobar
+5:26:46 PM - (AF16) Reviewed AFCC w/ Derek and Taylor. Need to do force-displacement calibration curve to quantify error in system.
 
