@@ -75,6 +75,7 @@ namespace Engineers_Diary
             txtSubject.Clear();
             txtArchiveEntry.Text = System.IO.File.ReadAllText(path_archive + "\\" + filename);
             lstArchive.SelectedIndex = 0;
+            txtEntry.Select();
         }
 
         private List<string> constructHeader()
@@ -152,7 +153,20 @@ namespace Engineers_Diary
                 txtEntry.Select(prevSpacePos + 1, txtEntry.SelectionStart - prevSpacePos - 1);
                 txtEntry.SelectedText = "";
             }
+            else if (e.Control && e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                btnCommit_Click(sender, e);
+            }
+        }
 
+        private void txtSubject_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                btnCommit_Click(sender, e);
+            }
         }
     }
 

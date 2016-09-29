@@ -104,6 +104,7 @@
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(166, 20);
             this.txtSubject.TabIndex = 1;
+            this.txtSubject.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSubject_KeyDown);
             // 
             // txtArchiveEntry
             // 
