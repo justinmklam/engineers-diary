@@ -129,15 +129,30 @@ namespace Engineers_Diary
 
         private void txtEntry_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control & e.KeyCode == Keys.A)
+            // Simulate ctrl + a
+            if (e.Control && e.KeyCode == Keys.A)
             {
                 ((TextBox)sender).SelectAll();
                 e.SuppressKeyPress = true;
             }
-            else if (e.Control & e.KeyCode == Keys.Back)
+            // Simulate ctrl + backspace
+            else if ((e.KeyCode == Keys.Back) && e.Control)
             {
-                SendKeys.SendWait("^+{LEFT}{BACKSPACE}{BACKSPACE}");
+                e.SuppressKeyPress = true;
+                int selStart = txtEntry.SelectionStart;
+                while (selStart > 0 && txtEntry.Text.Substring(selStart - 1, 1) == " ")
+                {
+                    selStart--;
+                }
+                int prevSpacePos = -1;
+                if (selStart != 0)
+                {
+                    prevSpacePos = txtEntry.Text.LastIndexOf(' ', selStart - 1);
+                }
+                txtEntry.Select(prevSpacePos + 1, txtEntry.SelectionStart - prevSpacePos - 1);
+                txtEntry.SelectedText = "";
             }
+
         }
     }
 

@@ -45,7 +45,8 @@
             // 
             // txtAuthor
             // 
-            this.txtAuthor.Location = new System.Drawing.Point(193, 325);
+            this.txtAuthor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtAuthor.Location = new System.Drawing.Point(193, 329);
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.Size = new System.Drawing.Size(93, 20);
             this.txtAuthor.TabIndex = 2;
@@ -53,7 +54,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(190, 308);
+            this.label5.Location = new System.Drawing.Point(190, 312);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 10;
@@ -64,18 +65,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(99, 11);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Log Entry:";
+            this.label4.Text = "Entry:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(10, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Log Archive:";
+            this.label3.Text = "Archive:";
             // 
             // label2
             // 
@@ -89,17 +90,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 309);
+            this.label1.Location = new System.Drawing.Point(10, 313);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Project(s):";
+            this.label1.Text = "Project:";
             // 
             // txtSubject
             // 
             this.txtSubject.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtSubject.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
-            this.txtSubject.Location = new System.Drawing.Point(13, 325);
+            this.txtSubject.Location = new System.Drawing.Point(13, 329);
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(166, 20);
             this.txtSubject.TabIndex = 1;
@@ -131,7 +132,7 @@
             // btnCommit
             // 
             this.btnCommit.Enabled = false;
-            this.btnCommit.Location = new System.Drawing.Point(294, 323);
+            this.btnCommit.Location = new System.Drawing.Point(294, 327);
             this.btnCommit.Name = "btnCommit";
             this.btnCommit.Size = new System.Drawing.Size(75, 23);
             this.btnCommit.TabIndex = 3;
@@ -156,7 +157,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 14);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Version 0.4";
+            this.label6.Text = "Version 0.5";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Form1
