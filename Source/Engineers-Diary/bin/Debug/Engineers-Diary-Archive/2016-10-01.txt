@@ -1,0 +1,11 @@
+---
+DATE: Sat, 1 Oct 2016
+AUTHOR: Justin Lam
+---
+
+11:03:51 AM - [TEST] Hello world!
+
+11:06:56 AM - [ED] First release of Engineer's Diary
+
+11:08:11 AM - [ED] Added application logo and misc bug fixes.
+

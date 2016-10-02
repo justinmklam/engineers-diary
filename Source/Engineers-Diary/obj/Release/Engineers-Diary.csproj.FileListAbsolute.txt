@@ -14,3 +14,4 @@ C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\bin\Release\Engi
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Release\Engineers_Diary.Form1.resources
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Release\Engineers_Diary.Properties.Resources.resources
 C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Release\Engineers-Diary.csproj.GenerateResource.Cache
+C:\Users\justi\Documents\GitHub\Engineers-Diary\Engineers-Diary\obj\Release\Engineers-Diary.csprojResolveAssemblyReference.cache
